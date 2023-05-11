@@ -1,0 +1,7 @@
+fig, ax = plt.subplots(figsize=(10,8))
+ax.scatter(x=data["SemanasG"],y=data["PesoRN"])
+plt.xlabel("Semanas de gestación")
+plt.ylabel("Peso del recién nacido")
+plt.title("Relación entre las semanas de gestación y peso del recién nacido")
+
+plt.show()

@@ -1,0 +1,7 @@
+fig, ax = plt.subplots(figsize=(10,8))
+ax.hist(data["Sexo"])
+plt.xlabel("Género")
+plt.ylabel("Frecuencia")
+plt.title("Género del recién nacido")
+
+plt.show()

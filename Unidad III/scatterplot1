@@ -1,0 +1,1 @@
+data.plot(kind="scatter", x="SemanasG",y="PesoRN")
